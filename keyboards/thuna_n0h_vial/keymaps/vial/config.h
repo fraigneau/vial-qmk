@@ -23,7 +23,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 //#define VIAL_UNLOCK_COMBO_COLS { 2, 2 }
 
 #define ENCODERS_PAD_A { F4, F5 }
-#define ENCODERS_PAD_B { D2, D3 }
+#define ENCODERS_PAD_B { D1, D0 }
 #define ENCODER_RESOLUTIONS { 4 }
 
 #define DYNAMIC_KEYMAP_LAYER_COUNT 2

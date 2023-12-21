@@ -16,28 +16,42 @@
 
 #include QMK_KEYBOARD_H
 
-
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 	// Default layer
+    /*
+     * ┌───┬───┬───┬───┐
+     * │ A │ B │ C │ D │
+     * ├───┼───┼───┼───┤
+     * │ E │ F │ G │ H │
+     * ├───┼───┼───┼───┼───┐
+     * │ I │ J │ K │ L │ 2 │
+     * └───┴───┴───┼───┼───┘
+     *             │ 1 │
+     *             └───┘
+     * [A;L]=Key
+     * [1;2]=Rotary Encodeur Switch
+     * 
+     */
+    
 	[0] = LAYOUT_thuna(
         KC_P1,     KC_P2,     KC_P3,     KC_P4,
         KC_P5,     KC_P6,     KC_P7,     KC_P8,    
-        KC_P9,     KC_P0,     KC_PDOT,   KC_PDOT,   KC_MPLY,
-        								                 KC_MUTE
+        KC_P9,     KC_P0,     KC_PDOT,   KC_PDOT,   KC_MUTE,
+        								 KC_MUTE
     ),
 
     [1] = LAYOUT_thuna(
         KC_TRNS,     KC_TRNS,     KC_TRNS,     KC_TRNS,
         KC_TRNS,     KC_TRNS,     KC_TRNS,     KC_TRNS,    
         KC_TRNS,     KC_TRNS,     KC_TRNS,     KC_TRNS,   KC_TRNS,
-        								                       KC_TRNS
+        								       KC_TRNS
     )
 };
 
 #if defined(ENCODER_MAP_ENABLE)
 const uint16_t PROGMEM encoder_map[][NUM_ENCODERS][2] = {
-    [0] =   { ENCODER_CCW_CW(KC_MS_WH_UP, KC_MS_WH_DOWN), ENCODER_CCW_CW(KC_VOLD, KC_VOLU)  },
+    [0] =   { ENCODER_CCW_CW(KC_MS_WH_UP, KC_MS_WH_DOWN), ENCODER_CCW_CW(KC_MS_WH_UP, KC_MS_WH_DOWN)  },
     [1] =   { ENCODER_CCW_CW(KC_TRNS, KC_TRNS), ENCODER_CCW_CW(KC_TRNS, KC_TRNS)  }
     //                  Encoder 1                                     Encoder 2
 };
