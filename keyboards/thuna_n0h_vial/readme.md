@@ -1,4 +1,4 @@
-# thuna_n0h
+# Thuna_N0H
 
 ![thuna_n0h](imgur.com image replace me!)
 
