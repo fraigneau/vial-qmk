@@ -56,24 +56,3 @@ const uint16_t PROGMEM encoder_map[][NUM_ENCODERS][2] = {
     //                  Encoder 1                                     Encoder 2
 };
 #endif
-
-//#if defined(RGB_MATRIX_ENABLE)
-//
-//led_config_t g_led_config = { {
-//  // Key Matrix to LED Index
-//  {  0,  1,  2,  3 },
-//  {  4,  5,  6,  7 },
-//  {  8,  9, 10,  11 }
-//}, {
-//  // LED Index to Physical Position
-//  { 0,0  }, { 10,0  }, { 20,0  }, { 30,0  },
-//  { 0,10 }, { 10,10 }, { 20,10 }, { 30,10 },
-//  { 0,30 }, { 10,30 }, { 20,30 }, { 30,30 }
-//}, {
-//  // LED Index to Flag
-//  1, 1, 1, 1,
-//  1, 1, 1, 1,
-//  1, 1, 1, 1,
-//} };
-//
-//#endif
