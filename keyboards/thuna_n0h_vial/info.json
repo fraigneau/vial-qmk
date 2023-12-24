@@ -16,12 +16,6 @@
         "cols": ["B2", "B3", "B1", "F7", "C6"],
         "rows": ["B5", "B4", "E6", "F6"]
     },
-    "encoder": {
-        "rotary": [
-             { "pin_a": "F4", "pin_b": "D2", "resolution": 4 },
-             { "pin_a": "F5", "pin_b": "D4", "resolution": 4 }
-         ]
-      },
     "processor": "atmega32u4",
     "url": "",
     "usb": {
@@ -45,8 +39,10 @@
                 {"matrix": [2, 1], "x": 1, "y": 2},
                 {"matrix": [2, 2], "x": 2, "y": 2},
                 {"matrix": [2, 3], "x": 3, "y": 2},
-                {"matrix": [3, 0], "x": 0, "y": 3},
-                {"matrix": [3, 1], "x": 1, "y": 3}
+
+                {"matrix": [2, 4], "x": 4, "y": 2},
+                {"matrix": [3, 3], "x": 3, "y": 3}
+
             ]
         }
     }    

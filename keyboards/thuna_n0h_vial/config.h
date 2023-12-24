@@ -3,6 +3,11 @@
 
 #pragma once
 
+#define ENCODERS_PAD_A { F4, D2 }
+#define ENCODERS_PAD_B { F5, D3 }
+#define ENCODER_RESOLUTIONS { 4 }
+
+
 /*
  * Feature disable options
  *  These options are also useful to firmware size reduction.
