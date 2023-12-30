@@ -15,6 +15,7 @@
  */
 
 #include QMK_KEYBOARD_H
+#include "quantum.h"
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
@@ -55,4 +56,14 @@ const uint16_t PROGMEM encoder_map[][NUM_ENCODERS][2] = {
     [1] =   { ENCODER_CCW_CW(KC_TRNS, KC_TRNS), ENCODER_CCW_CW(KC_TRNS, KC_TRNS)  }
     //                  Encoder 1                                     Encoder 2
 };
+#endif
+
+#ifdef RGB_MATRIX_ENABLE
+    led_config_t g_led_config = { {
+        { 1}
+    }, {
+        {0,32}
+    }, {
+        1
+    } };
 #endif

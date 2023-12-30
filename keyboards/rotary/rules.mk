@@ -8,7 +8,7 @@
 #NKRO_ENABLE = yes           # Enable N-Key Rollover
 #AUDIO_ENABLE = no           # Audio output
 
-LTO_ENABLE = yes
+LTO_ENABLE = no
 
 KEY_OVERRIDE_ENABLE = no
 TAP_DANCE_ENABLE = no
@@ -16,5 +16,3 @@ COMBO_ENABLE = no
 
 ENCODER_ENABLE = yes
 ENCODER_MAP_ENABLE = yes
-
-# RGBLIGHT_ENABLE = yes 

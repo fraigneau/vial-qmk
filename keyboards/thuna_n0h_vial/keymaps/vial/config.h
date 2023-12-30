@@ -22,14 +22,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 //#define VIAL_UNLOCK_COMBO_ROWS { 0, 2 }
 //#define VIAL_UNLOCK_COMBO_COLS { 2, 2 }
 
-//#define ENCODERS_PAD_A { D1, F5 }
-//#define ENCODERS_PAD_B { D0, D3 }
-//#define ENCODER_RESOLUTIONS { 4 }
+// The pin connected to the data pin of the LEDs
+#define WS2812_DI_PIN B6
+// The number of LEDs connected
+#define RGB_MATRIX_LED_COUNT 1
 
-//#define DYNAMIC_KEYMAP_LAYER_COUNT 2
-//#define VIAL_KEY_OVERRIDE_ENTRIES 4
-//#define VIAL_TAP_DANCE_ENTRIES 4
+#define RGB_MATRIX_FRAMEBUFFER_EFFECTS
+#define RGB_MATRIX_KEYPRESSES
 
-//#define WS2812_DI_PIN B6
-//#define RGB_MATRIX_LED_COUNT 12
-//#define WS2812_BYTE_ORDER WS2812_BYTE_ORDER_GRB

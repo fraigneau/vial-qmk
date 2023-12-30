@@ -1,0 +1,36 @@
+{
+    "manufacturer": "Fraigneau's Society",
+    "keyboard_name": "thuna_n0h",
+    "maintainer": "fraigneau",
+    "bootloader": "atmel-dfu",
+    "diode_direction": "COL2ROW",
+    "features": {
+        "bootmagic": true,
+        "command": false,
+        "console": false,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": false
+    },
+    "matrix_pins": {
+        "cols": ["B6", "B5"],
+        "rows": ["B2"]
+    },
+    "processor": "atmega32u4",
+    "url": "",
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0x0000",
+        "vid": "0xFEED"
+    },
+    "layouts": {
+        "LAYOUT_thuna": {   
+            "layout": [
+
+                {"matrix": [0, 0], "x": 0, "y": 0},
+                {"matrix": [0, 1], "x": 0, "y": 1}
+
+            ]
+        }
+    }    
+}
