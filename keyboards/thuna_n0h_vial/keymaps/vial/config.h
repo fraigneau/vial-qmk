@@ -25,7 +25,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // The pin connected to the data pin of the LEDs
 #define WS2812_DI_PIN B6
 // The number of LEDs connected
-#define RGB_MATRIX_LED_COUNT 1
+#define RGB_MATRIX_LED_COUNT 12
 
 #define RGB_MATRIX_FRAMEBUFFER_EFFECTS
 #define RGB_MATRIX_KEYPRESSES

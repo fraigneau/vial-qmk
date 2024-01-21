@@ -2,7 +2,7 @@
   "name": "Thuna_N0H",
   "vendorId": "0x4B50",
   "productId": "0x0652",
-  "lighting": "vialrgb",
+  "lighting": "QMK",
   "matrix": {"rows": 4, "cols": 5},
   "layouts": {
     "keymap": [
